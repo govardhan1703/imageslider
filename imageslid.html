@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="background-container">
+        <div class="background-text"></div>
+    </div>
+
+    <div class="slider-container">
+        <div class="thumbnails left-thumbnails">
+            <div class="thumbnail" data-index="0"><img src="images\attukad.jpg" alt="Attukad Waterfall"></div>
+            <div class="thumbnail" data-index="1"><img src="images\dudhsagar.jpg" alt="Dudhsagar Waterfall"></div>
+            <div class="thumbnail" data-index="2"><img src="images\jog.jpg" alt="Jog Waterfall"></div>
+        </div>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="images\attukad.jpg" alt="Attukad Waterfall"><div class="placeholder">1.Attukad Waterfall (Kerala, India)</div></div>
+                <div class="slide"><img src="images\dudhsagar.jpg" alt="Dudhsagar Waterfall"><div class="placeholder">2.Dudhsagar Waterfall (Goa, India)</div></div>
+                <div class="slide"><img src="images\jog.jpg" alt="Jog Waterfall"><div class="placeholder">3.Jog Waterfall (Karnataka, India)</div></div>
+                <div class="slide"><img src="images\krangsuri.jpg" alt="Krangsuri Waterfall"><div class="placeholder">4.Krang Suri Waterfall (Meghalaya, India)</div></div>
+                <div class="slide"><img src="images\nasik.jpg" alt="Nasik Waterfall"><div class="placeholder">5.Nasik Waterfall (Maharashtra, India)</div></div>
+                <div class="slide"><img src="images\sevensis.jpg" alt="Sevensisters Waterfall"><div class="placeholder">6.Seven Sisters Waterfall (Meghalaya, India)</div></div>
+            </div>
+            <div class="navigation">
+                <button id="prev">&#10094;</button>
+                <button id="next">&#10095;</button>
+            </div>
+        </div>
+        <div class="thumbnails right-thumbnails">
+            <div class="thumbnail" data-index="3"><img src="images\krangsuri.jpg" alt="Krangsuri Waterfall"></div>
+            <div class="thumbnail" data-index="4"><img src="images\nasik.jpg" alt="Nasik Waterfall"></div>
+            <div class="thumbnail" data-index="5"><img src="images\sevensis.jpg" alt="Sevensisters Waterfall"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
